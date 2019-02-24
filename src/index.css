@@ -12,3 +12,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+body {
+  background-color: lightgrey;
+}
+
+.AddTodo button {
+  padding: .4em;
+  margin-left: .5em;
+  border: 2px solid black;
+}
+
+.AddTodo input {
+  margin-left: 0;
+  padding: .4em;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.TodoList {
+  border: 1px solid black;
+  min-width: 10em;
+  background-color: white;
+  display: inline-block;
+  margin: 3em;
+  padding: 1em 3em 3em 3em;
+  text-align: left;
+}
+
+.Todo {
+  margin: .2em;
+}
+
+.TodoItems {
+  margin: .7em 0em;
+}
+
+.TodoContent, .TodoRemoveBtn, .TodoName{
+  display: inline-block;
+}
+
+.TodoRemoveBtn{
+  padding: 0;
+  cursor: pointer;
+  color: red;
+  margin-right: 2em;
+  border: none;
+}
